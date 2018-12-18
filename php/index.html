@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt" 
+ style="
+    background-image: url(img/fall1.jpg);
+"> 
+<head>
+    <meta charset="utf-8" />
+    <title>Fall out Boy</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+    
+</head>
+
+              
+       
+<body>
+       
+
+        <nav class="navbar navbar-default">
+                <div class="nav-header">
+                    <a href="#" class="navbar-brand">  </a>
+                      <button class="navbar-toggle" type="button" data-target=".navbar-collapse" data-toggle="collapse">
+                      menu
+                    </button>
+            
+            
+                </div>
+            
+                <ul class="nav navbar-nav collapse navbar-collapse" >
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="historia.html">Historia</a></li>
+                        <li><a href="registro.php">Cadastrar-se</a></li>
+                        <li><a href="logar_usuario.php">Logar</a></li>
+                        <li><a href="#">Contato</a></li>
+                </ul>
+              </nav>  
+
+              <div clas="container">
+                    <html>
+                            <head>
+                            <script type="text/javascript">
+                            function slide1(){
+                            document.getElementById('id').src="img/fall1.jpg";
+                            setTimeout("slide2()", 3000)
+                            document.getElementById('aId').href="link1.html"
+                            }
+                              
+                            function slide2(){
+                            document.getElementById('id').src="img/fall2.jpg";
+                            setTimeout("slide3()", 3000)
+                            document.getElementById('aId').href="link2.html"
+                            }
+                              
+                            function slide3(){
+                            document.getElementById('id').src="img/fall3.jpg";
+                            setTimeout("slide1()", 3000)
+                            document.getElementById('aId').href="link3.html"
+                            }
+                            </script>
+                            <body onLoad="slide1()">
+                            <a id="aId"><img id="id"></a>
+                            </body>
+                            </html>
+                                   
+            </div> 
+
+            
+                <footer> Kessio Records Todos os Direitos reservados 2018 &copy;</footer>
+       
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt"> 
+<head>
+    <meta charset="utf-8" />
+    <title>Fall out Boy</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+    
+    
+</head>
+                     
+       
+<body>
+        <nav class="navbar navbar-default">
+        <div class="nav-header">
+            <a href="#" class="navbar-brand">  </a>
+              <button class="navbar-toggle" type="button" data-target=".navbar-collapse" data-toggle="collapse">
+              menu
+            </button>
+    
+    
+        </div>
+    
+        <ul class="nav navbar-nav collapse navbar-collapse" >
+                <li><a href="#">Home</a></li>
+        </ul>
+      </nav>       
+      
+    <main>
+                     
+                    
+
+                <div class="logo" >
+                        <h1>PRENCHA O FORMULARIO ABAIXO PARA CONTRATAR O SHOW DO FALL OUT BOY!</h1>
+                <img class="display"src="img/logo.png"  width="320" height="320" >
+                </div>
+                
+                <div class="texto"></div>
+                    <h1>Fall out Boy</h1>
+                    <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h3 class="modal-title" id="exampleModalLongTitle">FORMULARIO</h3>
+                              </div>
+                              <div class="modal-body">
+                            <form action="insere.php" method="POST" >
+                              <fieldset>
+                                <legend>Dados pessoais</legend>
+                                <div class="form-group">
+                                  <label for="nome">Nome completo</label>
+                                  <input type="text" class="form-control" name="nome">
+                                </div>
+                                <div class="form-group">
+                                  <label for="data-toggle">Local para show</label>
+                                  <input type="text" class="form-control"  name="local_1">
+                                </div>  
+                                <div class="form-group">
+                                  <label for="email">Email</label>
+                                  <input type="text" class="form-control" id="email"
+                                  name="email" placeholder="email@exemplo.com" required>
+                                </div>
+                                <div class="form-group">
+                                  <label for="cpf">CPF</label>
+                                  <input type="text" class="form-control" id="cpf" placeholder="XXX.XXX.XXX-XX" name="cpf">
+                                </div>
+                                <div class="form-group">
+                                        <label for="inputFone" class="control-label">Telefone</label>
+                                        <input type="text" class="form-control" name="telefone" placeholder="(88)9.9999-9999" required>
+                                </div>
+                              </fieldset>
+                              
+                              
+                            </form>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                                <input type="submit" class="btn btn-primary" value="ENVIAR" onclick="redireciona()"/>
+                              </div>
+                            </div>
+                          </div>
+                          <script>
+                                function redireciona(){
+                                    window.location.href="/retorno.html";
+                                
+                                }
+                                </script>
+            
+                <br> <br>
+                <footer> Kessio Records Todos os Direitos reservados 2018 &copy;</footer>
+            
+        </main>
+       
+</body>
+</html>
